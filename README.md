@@ -1,54 +1,23 @@
-# 🎮 GraficPlayground
+# GraficPlayground
 
-**GraficPlayground** is an OpenGL-based 3D graphics playground built using Qt and QMake. This project serves as an interactive platform to experiment with 3D scenes, lighting, model loading, and event handling. Ideal for learning and extending OpenGL in a Qt environment.
-
----
-
-## 🚀 Getting Started
-
-### ✅ Prerequisites
-
-Make sure you have the following installed:
-
-- **Qt** `>= 5.15.13`
-- **QMake** `>= 3.1`
+**GraficPlayground** is a simple 3D graphics playground built with **Qt** and **OpenGL**. It allows for rendering 3D models, setting up scenes, experimenting with lighting, and handling basic interaction through keyboard and mouse events.
 
 ---
 
-### 🛠️ Build Instructions
+## ✅ Requirements
 
-To compile and run the project:
+Make sure you have the following installed before building:
+
+- **QMake** version **3.1** or higher
+- **Qt** version **5.15.13** or higher
+
+---
+
+## 🧪 How to Build and Run
+
+Open a terminal in the project folder and run:
 
 ```bash
 qmake
 make
 ./examen
-
-GraficPlayground/
-│
-├── shaders/          # Contains lighting shaders (vertex & fragment)
-├── model/
-│   ├── model.cpp     # Model loader implementation
-│   ├── model.h       # Model loader header
-│   └── *.obj         # 3D model files (textures not supported)
-├── MyGLWidget.cpp    # Main playground logic
-├── ExamGLWidget.cpp  # Base OpenGL widget (provides default scene)
-└── main.cpp          # Application entry point
-
-
-🧠 Key Concepts
-
-    MyGLWidget inherits from ExamGLWidget and implements the full logic of the playground:
-
-        Scene initialization
-
-        Model loading
-
-        Lighting setup
-
-        Object movement
-
-        Input/event synchronization
-
-    Model Textures:
-    Due to limitations in model.cpp, texture loading is not supported. Models that rely on textures (e.g., those from The Models Resource) will appear white.
