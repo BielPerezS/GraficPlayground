@@ -1,0 +1,11 @@
+# Material file for creepyhand.obj
+
+newmtl Shape.082
+	Ns 0
+	d 1
+	illum 2
+	Kd 0.009375 0.253125 0.56875
+	Ks 0.0 0.0 0.0
+	Ka 1.0 1.0 1.0
+	map_Kd creepyhand.png
+

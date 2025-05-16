@@ -1,0 +1,29 @@
+# Material file for FakeSonicHigh.obj
+
+newmtl env_fake_s
+	Ns 0
+	d 1
+	illum 2
+	Kd 0.8 0.8 0.8
+	Ks 0.0 0.0 0.0
+	Ka 0.2 0.2 0.2
+	map_Kd Textures\env_fake_s.png
+
+newmtl fake_t128
+	Ns 0
+	d 1
+	illum 2
+	Kd 0.8 0.8 0.8
+	Ks 0.0 0.0 0.0
+	Ka 0.2 0.2 0.2
+	map_Kd Textures\fake_t128.png
+
+newmtl pohn_t_es
+	Ns 0
+	d 1
+	illum 2
+	Kd 0.8 0.8 0.8
+	Ks 0.0 0.0 0.0
+	Ka 0.2 0.2 0.2
+	map_Kd Textures\pohn_t_es.png
+
