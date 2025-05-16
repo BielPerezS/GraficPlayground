@@ -1,0 +1,42 @@
+# Blender 4.3.2 MTL File: 'None'
+# www.blender.org
+
+newmtl Material
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl None
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:/Users/bielp/OneDrive/Escriptori/LabIDI/WarThunderPatricio/models/tex1_256x256_80d7f70bf0dd0465_14.png
+
+newmtl None_NONE
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:/Users/bielp/OneDrive/Escriptori/LabIDI/WarThunderPatricio/models/tex1_256x256_80d7f70bf0dd0465_14.png
+
+newmtl None_tex1_256x128_7dacb98a33c5cf70_14.png
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:/Users/bielp/OneDrive/Escriptori/LabIDI/WarThunderPatricio/models/tex1_256x128_7dacb98a33c5cf70_14.png

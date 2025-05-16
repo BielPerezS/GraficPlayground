@@ -1,0 +1,24 @@
+# Blender MTL File: 'None'
+# Material Count: 2
+
+newmtl Add-ons
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd AddonsPiezasSubstance_Material _15_BaseColor.png
+
+newmtl Max_Fur_Rim_Texture_Mask_Color
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd Max_Low_Dog_AlbedoTransparency.png
