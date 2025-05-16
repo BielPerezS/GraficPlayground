@@ -24,7 +24,7 @@ make
 ```
 
 ## 📁 Project Structure
-
+```bash
 GraficPlayground/
 │
 ├── shaders/           # Contains vertex and fragment shaders for lighting
@@ -38,3 +38,4 @@ GraficPlayground/
 ├── ExamGLWidget.cpp   # Base widget with a default (empty) scene
 ├── main.cpp           # Entry point
 └── examen.pro         # Project file for QMake
+```
