@@ -22,7 +22,7 @@ qmake
 make
 ./examen
 ```
-
+---
 ## 📁 Project Structure
 ```bash
 GraficPlayground/
@@ -39,3 +39,18 @@ GraficPlayground/
 ├── main.cpp           # Entry point
 └── examen.pro         # Project file for QMake
 ```
+---
+## 🎮 What It Does
+
+   - Loads and displays 3D models
+
+   - Initializes custom 3D scenes
+
+   - Sets up lighting via shaders
+
+   - Handles movement and basic interaction
+
+   - Syncs user events (keyboard, mouse) with the scene
+
+   - Note: Due to limitations in model.cpp, models with textures (like many from https://www.models-resource.com/) will appear completely white.
+
