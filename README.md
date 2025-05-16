@@ -54,6 +54,19 @@ GraficPlayground/
 
    - Note: Due to limitations in model.cpp, models with textures (like many from https://www.models-resource.com/) will appear completely white.
 
+## 📝 Notes
+
+- The core logic of the application is in `MyGLWidget`, which inherits from `ExamGLWidget`.
+- `ExamGLWidget` provides a basic OpenGL setup with a default (empty) scene.
+- `MyGLWidget` extends it by:
+  - Loading and rendering 3D models
+  - Initializing custom scenes
+  - Handling lighting via shaders
+  - Managing input (keyboard, mouse)
+  - Synchronizing events and animations
+- Models are loaded from the `/model` folder using `model.cpp` and `model.h`.
+- Textures are **not supported** due to limitations in `model.cpp`. As a result, many models (especially those from [The Models Resource](https://www.models-resource.com/)) appear white.
+
 ## 🕹️ User Guide
 
 You control **Patricio** from *SpongeBob*. Here's how to interact with the scene:
@@ -79,5 +92,17 @@ You control **Patricio** from *SpongeBob*. Here's how to interact with the scene
 - `F` — Toggle light source between Sonic and Patricio’s plane
 - `R` — Reset the scene and all parameters
 
+## 📄 License
 
+This project is open-source and licensed under the **MIT License**.  
+You are free to use, modify, and distribute it with proper attribution.
+
+---
+
+## 📫 Contact
+
+If you have questions, suggestions, or want to contribute:
+
+- Open an issue or pull request on the repo
+- GitHub: [@BielPerezS](https://github.com/BielPerezS)
 
