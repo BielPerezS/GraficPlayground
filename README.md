@@ -99,10 +99,4 @@ You are free to use, modify, and distribute it with proper attribution.
 
 ---
 
-## 📫 Contact
-
-If you have questions, suggestions, or want to contribute:
-
-- Open an issue or pull request on the repo
-- GitHub: [@BielPerezS](https://github.com/BielPerezS)
 
